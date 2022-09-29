@@ -175,3 +175,29 @@ p.para{
   padding-left: 10rem;
 }
 /* End Brand */
+
+/* Service Area */
+.site-main .service-area{
+  padding:  7rem 2rem;
+}
+
+.site-main .service-area .services-title{
+  padding: 0 14rem;
+}
+
+.site-main .service-area .services-title h1{
+  font-size: 35px;
+}
+
+.site-main > .service-area .service{
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 5rem .5rem;
+  transition: box-shadow 0.7s ease;
+}
+
+.site-main > .service-area .service:hover{
+  box-shadow: var(--box-shadow);
+}
+/* End Service Area */
